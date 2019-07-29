@@ -1,14 +1,14 @@
 public class Tavolo {
 
-    int id, capacità;
+    int id, capacita;
     boolean free;
 
-    public id getId() {
+    public int getId() {
         return id;
     }
 
-    public int getCapacità() {
-        return capacità;
+    public int getCapacita() {
+        return capacita;
     }
 
     public boolean isFree() { return free; }

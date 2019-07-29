@@ -1,6 +1,6 @@
 public class PrenotazioneBuilder {
 
-	private int orario, nPersone, id;
+	private int orario, nPersone;
 	private char data;
 	private Tavolo t = new Tavolo();
 
@@ -24,8 +24,9 @@ public class PrenotazioneBuilder {
 		return this;
 	}
 
-	public Prenotazione build() {
-        Prenotazione prenotazione = new Prenotazione();
+	public Prenotazione build(Tavolo t) {
+		Prenotazione prenotazione = new Prenotazione(t.getId());
+		prenotazione.t.isFree(false);
         Cliente c = new Cliente();
         prenotazione.t = this.t;
         prenotazione.data = this.data;

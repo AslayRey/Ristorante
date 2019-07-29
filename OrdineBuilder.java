@@ -17,7 +17,7 @@ public class OrdineBuilder {
     }
 
     public OrdineBuilder setCameriere(Cameriere cameriere) {
-        this.cameriere = cameriere
+        this.cameriere = cameriere;
         return this;
     }
 

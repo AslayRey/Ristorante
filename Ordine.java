@@ -18,9 +18,15 @@ public class Ordine {
         return cameriere;
     }
 
-    public float getCosto() { return costo; }
+    public float getCosto() { 
+        return costo;
+    }
 
-    public boolean getPagato() { return pagato; }
+    public boolean getPagato() { 
+        return pagato; 
+    }
 
-    public Tavolo getTavolo() { return t; }
+    public Tavolo getTavolo() {
+        return t;
+    }
 }

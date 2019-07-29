@@ -11,5 +11,7 @@ public class Tavolo {
         return capacita;
     }
 
-    public boolean isFree() { return free; }
+    public boolean isFree(boolean free) { 
+        return this.free; 
+    }
 }
